@@ -1,42 +1,42 @@
-1	The	the	DT	_	3	det
-2	ClearNLP	clearnlp	NNP	p2=JJ	3	nn
-3	project	project	NN	_	4	nsubj
-4	provides	provide	VBZ	_	0	root
-5	software	software	NN	_	4	dobj
-6	and	and	CC	_	5	cc
-7	resources	resource	NNS	_	5	conj
-8	for	for	IN	_	5	prep
-9	natural	natural	JJ	_	10	amod
-10	language	language	NN	_	11	nn
-11	processing	processing	NN	_	8	pobj
-12	.	.	.	_	4	punct
+1	The	the	DT	_	3	det	O
+2	ClearNLP	clearnlp	NNP	p2=JJ	3	compound	U-ORG
+3	project	project	NN	_	4	nsubj	O
+4	provides	provide	VBZ	_	0	root	O
+5	software	software	NN	_	4	dobj	O
+6	and	and	CC	_	5	cc	O
+7	resources	resource	NNS	_	5	conj	O
+8	for	for	IN	_	5	prep	O
+9	natural	natural	JJ	_	10	amod	O
+10	language	language	NN	_	11	compound	O
+11	processing	processing	NN	_	8	pobj	O
+12	.	.	.	_	4	punct	O
 
-1	It	it	PRP	_	3	nsubjpass
-2	is	be	VBZ	_	3	auxpass
-3	developed	develop	VBN	_	0	root
-4	by	by	IN	_	3	agent
-5	the	the	DT	_	6	det
-6	Center	center	NNP	p2=NNPS	4	pobj
-7	for	for	IN	_	6	prep
-8	Language	language	NNP	_	7	pobj
-9	and	and	CC	_	8	cc
-10	Information	information	NNP	_	11	nn
-11	Research	research	NNP	_	8	conj
-12	(	(	-LRB-	_	13	punct
-13	CLIR	clir	NNP	_	11	appos
-14	)	)	-RRB-	_	13	punct
-15	at	at	IN	_	6	prep
-16	Emory	emory	NNP	_	17	nn
-17	University	university	NNP	_	15	pobj
-18	.	.	.	_	3	punct
+1	It	it	PRP	_	3	nsubjpass	O
+2	is	be	VBZ	_	3	auxpass	O
+3	developed	develop	VBN	_	0	root	O
+4	by	by	IN	_	3	agent	O
+5	the	the	DT	_	6	det	B-ORG
+6	Center	center	NNP	_	4	pobj	I-ORG
+7	for	for	IN	_	6	prep	I-ORG
+8	Language	language	NNP	_	7	pobj	I-ORG
+9	and	and	CC	_	8	cc	I-ORG
+10	Information	information	NNP	_	11	compound	I-ORG
+11	Research	research	NNP	_	8	conj	L-ORG
+12	(	(	-LRB-	_	8	punct	O
+13	CLIR	clir	NNP	p2=NN	8	appos	O
+14	)	)	-RRB-	_	8	punct	O
+15	at	at	IN	_	6	prep	O
+16	Emory	emory	NNP	_	17	compound	B-ORG
+17	University	university	NNP	_	15	pobj	L-ORG
+18	.	.	.	_	3	punct	O
 
-1	This	this	DT	_	2	det
-2	project	project	NN	_	3	nsubj
-3	is	be	VBZ	_	0	root
-4	under	under	IN	_	3	prep
-5	the	the	DT	_	8	det
-6	Apache	apache	NNP	_	8	nn
-7	2	0	CD	_	6	num
-8	license	license	NN	_	4	pobj
-9	.	.	.	_	3	punct
+1	This	this	DT	_	2	det	O
+2	project	project	NN	_	3	nsubj	O
+3	is	be	VBZ	_	0	root	O
+4	under	under	IN	_	3	prep	O
+5	the	the	DT	_	8	det	O
+6	Apache	apache	NNP	_	8	nmod	O
+7	2	0	CD	p2=NNP	6	nummod	O
+8	license	license	NN	_	4	pobj	O
+9	.	.	.	_	3	punct	O
 

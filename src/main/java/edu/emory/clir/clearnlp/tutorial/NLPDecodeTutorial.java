@@ -19,13 +19,16 @@ import java.io.BufferedReader;
 import java.io.FileInputStream;
 import java.io.InputStream;
 import java.io.PrintStream;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 import edu.emory.clir.clearnlp.component.AbstractComponent;
 import edu.emory.clir.clearnlp.component.mode.dep.DEPConfiguration;
+import edu.emory.clir.clearnlp.component.utils.GlobalLexica;
 import edu.emory.clir.clearnlp.component.utils.NLPUtils;
+import edu.emory.clir.clearnlp.dependency.DEPNode;
 import edu.emory.clir.clearnlp.dependency.DEPTree;
 import edu.emory.clir.clearnlp.tokenization.AbstractTokenizer;
 import edu.emory.clir.clearnlp.util.IOUtils;
@@ -42,13 +45,26 @@ public class NLPDecodeTutorial
 	public NLPDecodeTutorial(TLanguage language)
 	{
 		final String rootLabel = "root";	// root label for dependency parsing
+		initGlobalLexica();
 		
-		AbstractComponent morph  = NLPUtils.getMPAnalyzer(language);
-		AbstractComponent tagger = NLPUtils.getPOSTagger(language, "general-en-pos.xz");
-		AbstractComponent parser = NLPUtils.getDEPParser(language, "general-en-dep.xz", new DEPConfiguration(rootLabel));
+		AbstractComponent morph = NLPUtils.getMPAnalyzer(language);
+		AbstractComponent pos = NLPUtils.getPOSTagger   (language, "general-en-pos.xz");
+		AbstractComponent dep = NLPUtils.getDEPParser   (language, "general-en-dep.xz", new DEPConfiguration(rootLabel));
+		AbstractComponent ner = NLPUtils.getNERecognizer(language, "general-en-ner.xz");
 		
-		components = new AbstractComponent[]{tagger, morph, parser};
+		components = new AbstractComponent[]{pos, morph, dep, ner};
 		tokenizer  = NLPUtils.getTokenizer(language);
+	}
+	
+	public void initGlobalLexica()
+	{
+		List<String> paths = new ArrayList<>();
+		paths.add("brown-rcv1.clean.tokenized-CoNLL03.txt-c1000-freq1.txt.xz");
+		paths.add("model-2030000000.LEARNING_RATE=1e-09.EMBEDDING_LEARNING_RATE=1e-06.EMBEDDING_SIZE=100.txt.xz");
+		paths.add("hlbl_reps_clean_2.50d.rcv1.clean.tokenized-CoNLL03.case-intact.txt.xz");
+		
+		GlobalLexica.initDistributionalSemanticsWords(paths);
+		GlobalLexica.initNamedEntityDictionary("general-en-ner-dict.xz");
 	}
 	
 	public void processRaw(InputStream in, PrintStream out) throws Exception
@@ -62,7 +78,7 @@ public class NLPDecodeTutorial
 			for (AbstractComponent component : components)
 				component.process(tree);
 			
-			out.println(tree.toStringDEP()+"\n");
+			out.println(tree.toString(DEPNode::toStringNER)+"\n");
 		}
 		
 		in.close();
@@ -78,7 +94,7 @@ public class NLPDecodeTutorial
 		while ((line = reader.readLine()) != null)
 		{
 			tree = toDEPTree(line);			
-			out.println(tree.toStringDEP()+"\n");
+			out.println(tree.toString(DEPNode::toStringNER)+"\n");
 		}
 		
 		reader.close();
@@ -137,7 +153,7 @@ public class NLPDecodeTutorial
 		try 
 		{
 			DEPTree tree = nlp.toDEPTree("The ClearNLP project provides software and resources for natural language processing.");
-			System.out.println(tree.toStringDEP()+"\n");
+			System.out.println(tree.toString(DEPNode::toStringNER)+"\n");
 			
 			nlp.processRaw (new FileInputStream(sampleRaw) , IOUtils.createBufferedPrintStream(sampleRaw +".cnlp"));
 			nlp.processLine(new FileInputStream(sampleLine), IOUtils.createBufferedPrintStream(sampleLine+".cnlp"));

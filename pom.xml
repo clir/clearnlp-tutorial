@@ -114,22 +114,22 @@
     <dependency>
       <groupId>edu.emory.clir</groupId>
       <artifactId>clearnlp-medical-en-pos</artifactId>
-      <version>3.0</version>
+      <version>3.1-SNAPSHOT</version>
     </dependency>
     <dependency>
       <groupId>edu.emory.clir</groupId>
       <artifactId>clearnlp-medical-en-dep</artifactId>
-      <version>3.0</version>
+      <version>3.1-SNAPSHOT</version>
     </dependency>
     <dependency>
       <groupId>edu.emory.clir</groupId>
       <artifactId>clearnlp-bioinformatics-en-pos</artifactId>
-      <version>3.0</version>
+      <version>3.1-SNAPSHOT</version>
     </dependency>
     <dependency>
       <groupId>edu.emory.clir</groupId>
       <artifactId>clearnlp-bioinformatics-en-dep</artifactId>
-      <version>3.0</version>
+      <version>3.1-SNAPSHOT</version>
     </dependency>
   </dependencies>
 </project>

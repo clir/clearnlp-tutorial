@@ -44,20 +44,13 @@ public class NLPDecodeTutorial
 	
 	public NLPDecodeTutorial(TLanguage language)
 	{
-		final String rootLabel = "root";	// root label for dependency parsing
-		initGlobalLexica();
-		
-		AbstractComponent morph = NLPUtils.getMPAnalyzer(language);
-		AbstractComponent pos = NLPUtils.getPOSTagger   (language, "general-en-pos.xz");
-		AbstractComponent dep = NLPUtils.getDEPParser   (language, "general-en-dep.xz", new DEPConfiguration(rootLabel));
-		AbstractComponent ner = NLPUtils.getNERecognizer(language, "general-en-ner.xz");
-		
-		components = new AbstractComponent[]{pos, morph, dep, ner};
 		tokenizer  = NLPUtils.getTokenizer(language);
+		components = getGeneralModels(language);
 	}
 	
-	public void initGlobalLexica()
+	public AbstractComponent[] getGeneralModels(TLanguage language)
 	{
+		// initialize global lexicons
 		List<String> paths = new ArrayList<>();
 		paths.add("brown-rcv1.clean.tokenized-CoNLL03.txt-c1000-freq1.txt.xz");
 		paths.add("model-2030000000.LEARNING_RATE=1e-09.EMBEDDING_LEARNING_RATE=1e-06.EMBEDDING_SIZE=100.txt.xz");
@@ -65,6 +58,55 @@ public class NLPDecodeTutorial
 		
 		GlobalLexica.initDistributionalSemanticsWords(paths);
 		GlobalLexica.initNamedEntityDictionary("general-en-ner-dict.xz");
+		
+		// initialize statistical models
+		AbstractComponent morph = NLPUtils.getMPAnalyzer(language);
+		AbstractComponent pos = NLPUtils.getPOSTagger   (language, "general-en-pos.xz");
+		AbstractComponent dep = NLPUtils.getDEPParser   (language, "general-en-dep.xz", new DEPConfiguration("root"));
+		AbstractComponent ner = NLPUtils.getNERecognizer(language, "general-en-ner.xz");
+		
+		return new AbstractComponent[]{pos, morph, dep, ner};
+	}
+	
+	public AbstractComponent[] getMedicalModels(TLanguage language)
+	{
+		// initialize global lexicons
+		List<String> paths = new ArrayList<>();
+		paths.add("brown-rcv1.clean.tokenized-CoNLL03.txt-c1000-freq1.txt.xz");
+		GlobalLexica.initDistributionalSemanticsWords(paths);
+		
+		// initialize statistical models
+		AbstractComponent morph = NLPUtils.getMPAnalyzer(language);
+		AbstractComponent pos = NLPUtils.getPOSTagger   (language, "medical-en-pos.xz");
+		AbstractComponent dep = NLPUtils.getDEPParser   (language, "medical-en-dep.xz", new DEPConfiguration("root"));
+		
+		return new AbstractComponent[]{pos, morph, dep};
+	}
+	
+	public AbstractComponent[] getBioinformaticsModels(TLanguage language)
+	{
+		// initialize global lexicons
+		List<String> paths = new ArrayList<>();
+		paths.add("brown-rcv1.clean.tokenized-CoNLL03.txt-c1000-freq1.txt.xz");
+		GlobalLexica.initDistributionalSemanticsWords(paths);
+		
+		// initialize statistical models
+		AbstractComponent morph = NLPUtils.getMPAnalyzer(language);
+		AbstractComponent pos = NLPUtils.getPOSTagger   (language, "bioinformatics-en-pos.xz");
+		AbstractComponent dep = NLPUtils.getDEPParser   (language, "bioinformatics-en-dep.xz", new DEPConfiguration("root"));
+		
+		return new AbstractComponent[]{pos, morph, dep};
+	}
+	
+	public DEPTree toDEPTree(String line)
+	{
+		List<String> tokens = tokenizer.tokenize(line);
+		DEPTree tree = new DEPTree(tokens);
+		
+		for (AbstractComponent component : components)
+			component.process(tree);
+		
+		return tree;
 	}
 	
 	public void processRaw(InputStream in, PrintStream out) throws Exception
@@ -131,17 +173,6 @@ public class NLPDecodeTutorial
 			}
 			catch (Exception e) {e.printStackTrace();}
 		}
-	}
-	
-	public DEPTree toDEPTree(String line)
-	{
-		List<String> tokens = tokenizer.tokenize(line);
-		DEPTree tree = new DEPTree(tokens);
-		
-		for (AbstractComponent component : components)
-			component.process(tree);
-		
-		return tree;
 	}
 	
 	static public void main(String[] args)

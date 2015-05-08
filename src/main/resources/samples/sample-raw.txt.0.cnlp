@@ -25,8 +25,8 @@
 12	(	(	-LRB-	_	8	punct	O
 13	CLIR	clir	NNP	p2=NN	8	appos	O
 14	)	)	-RRB-	_	8	punct	O
-15	at	at	IN	_	6	prep	B-ORG
-16	Emory	emory	NNP	_	17	compound	I-ORG
+15	at	at	IN	_	6	prep	O
+16	Emory	emory	NNP	_	17	compound	B-ORG
 17	University	university	NNP	_	15	pobj	L-ORG
 18	.	.	.	_	3	punct	O
 

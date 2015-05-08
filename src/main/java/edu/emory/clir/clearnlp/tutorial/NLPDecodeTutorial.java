@@ -53,11 +53,9 @@ public class NLPDecodeTutorial
 		// initialize global lexicons
 		List<String> paths = new ArrayList<>();
 		paths.add("brown-rcv1.clean.tokenized-CoNLL03.txt-c1000-freq1.txt.xz");
-		paths.add("model-2030000000.LEARNING_RATE=1e-09.EMBEDDING_LEARNING_RATE=1e-06.EMBEDDING_SIZE=100.txt.xz");
-		paths.add("hlbl_reps_clean_2.50d.rcv1.clean.tokenized-CoNLL03.case-intact.txt.xz");
 		
 		GlobalLexica.initDistributionalSemanticsWords(paths);
-		GlobalLexica.initNamedEntityDictionary("general-en-ner-dict.xz");
+		GlobalLexica.initNamedEntityDictionary("general-en-ner-gazetteer.xz");
 		
 		// initialize statistical models
 		AbstractComponent morph = NLPUtils.getMPAnalyzer(language);

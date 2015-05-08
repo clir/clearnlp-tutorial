@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>edu.emory.clir</groupId>
   <artifactId>clearnlp-tutorial</artifactId>
-  <version>3.1.0-SNAPSHOT</version>
+  <version>3.1.1-SNAPSHOT</version>
   <packaging>jar</packaging>
   <name>clearnlp-tutorial</name>
   <url>http://www.clearnlp.com</url>
@@ -84,7 +84,7 @@
     <dependency>
       <groupId>edu.emory.clir</groupId>
       <artifactId>clearnlp</artifactId>
-      <version>3.1.0</version>
+      <version>3.1.1</version>
     </dependency>
     <dependency>
       <groupId>edu.emory.clir</groupId>
@@ -93,8 +93,13 @@
     </dependency>
     <dependency>
       <groupId>edu.emory.clir</groupId>
-      <artifactId>clearnlp-global-lexica</artifactId>
+      <artifactId>clearnlp-general-en-ner-gazetteer</artifactId>
       <version>3.0</version>
+    </dependency>
+    <dependency>
+      <groupId>edu.emory.clir</groupId>
+      <artifactId>clearnlp-global-lexica</artifactId>
+      <version>3.1</version>
     </dependency>
     <dependency>
       <groupId>edu.emory.clir</groupId>

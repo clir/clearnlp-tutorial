@@ -1,0 +1,186 @@
+A bank is a financial intermediary and money creator that creates money by lending money to a borrower, thereby creating a corresponding deposit on the bank's balance sheet.
+Lending activities can be performed directly by loaning or indirectly through capital markets.
+Due to their importance in the financial system and influence on national economies, banks are highly regulated in most countries.
+Most nations have institutionalised a system known as fractional reserve banking, under which banks hold liquid assets equal to only a portion of their current liabilities.
+In addition to other regulations intended to ensure liquidity, banks are generally subject to minimum capital requirements based on an international set of capital standards, known as the Basel Accords.
+Banking in its modern sense evolved in the 14th century in the rich cities of Renaissance Italy but in many ways was a continuation of ideas and concepts of credit and lending that had its roots in the ancient world.
+In the history of banking, a number of banking dynasties—notably the Medicis, the Fuggers, the Welsers, the Berenbergs, and the Rothschilds—have played a central role over many centuries.
+The oldest existing retail bank is Monte dei Paschi di Siena, while the oldest existing merchant bank is Berenberg Bank.
+A car is a wheeled, self-powered motor vehicle used for transportation.
+Most definitions of the term specify that cars are designed to run primarily on roads, to have seating for one to eight people, to typically have four wheels, and to be constructed principally for the transport of people rather than goods.[3][4]
+The year 1886 is regarded as the birth year of the modern car.
+In that year, German inventor Karl Benz built the Benz Patent-Motorwagen.
+Cars did not become widely available until the early 20th century.
+One of the first cars that was accessible to the masses was the 1908 Model T, an American car manufactured by the Ford Motor Company.
+Cars were rapidly adopted in the United States of America, where they replaced animal-drawn carriages and carts, but took much longer to be accepted in Western Europe and other less-developed parts of the world.
+Cars are equipped with controls used for driving, parking, and passenger comfort and safety.
+New controls have also been added to vehicles, making them more complex.
+Examples include air conditioning, navigation systems, and in car entertainment.
+Most cars in use today are propelled by an internal combustion engine, fueled by deflagration of gasoline (also known as petrol) or diesel.
+Both fuels are known to cause air pollution and are also blamed for contributing to climate change and global warming.[5]
+Vehicles using alternative fuels such as ethanol flexible-fuel vehicles and natural gas vehicles are also gaining popularity in some countries.
+Road traffic accidents are the largest cause of injury-related deaths worldwide.[6]
+The costs of car usage, which may include the cost of: acquiring the vehicle, repairs and auto maintenance, fuel, depreciation, driving time, parking fees, taxes, and insurance,[7] are weighed against the cost of the alternatives, and the value of the benefits – perceived and real – of vehicle usage.
+The benefits may include on-demand transportation, mobility, independence and convenience.[8]
+The costs to society of encompassing car use, which may include those of: maintaining roads, land use, pollution, public health, health care, and of disposing of the vehicle at the end of its life, can be balanced against the value of the benefits to society that car use generates.
+The societal benefits may include: economy benefits, such as job and wealth creation, of car production and maintenance, transportation provision, society wellbeing derived from leisure and travel opportunities, and revenue generation from the tax opportunities.
+The ability for humans to move flexibly from place to place has far-reaching implications for the nature of societies.[9]
+The term motorcar has formerly also been used in the context of electrified rail systems to denote a car which functions as a small locomotive but also provides space for passengers and baggage.
+These locomotive cars were often used on suburban routes by both interurban and intercity railroad systems.[10]
+It was estimated in 2010 that the number of cars had risen to over 1 billion vehicles, up from the 500 million of 1986.[11]
+The numbers are increasing rapidly, especially in China, India and other NICs.[12]
+In graph theory and network analysis, centrality refers to indicators which identify the most important vertices within a graph.
+Applications include identifying the most influential person(s) in a social network, key infrastructure nodes in the Internet or urban networks, and super spreaders of disease.
+Centrality concepts were first developed in social network analysis, and many of the terms used to measure centrality reflect their sociological origin.[1]
+Computer science is the scientific and practical approach to computation and its applications.
+It is the systematic study of the feasibility, structure, expression, and mechanization of the methodical procedures (or algorithms) that underlie the acquisition, representation, processing, storage, communication of, and access to information, whether such information is encoded as bits in a computer memory or transcribed in genes and protein structures in a biological cell.[1]
+A computer scientist specializes in the theory of computation and the design of computational systems.[2] Its subfields can be divided into a variety of theoretical and practical disciplines.
+Some fields, such as computational complexity theory (which explores the fundamental properties of computational and intractable problems), are highly abstract, while fields such as computer graphics emphasize real-world visual applications.
+Still other fields focus on the challenges in implementing computation.
+For example, programming language theory considers various approaches to the description of computation, while the study of computer programming itself investigates various aspects of the use of programming language and complex systems.
+Human–computer interaction considers the challenges in making computers and computations useful, usable, and universally accessible to humans.
+Credit (from Latin credere translation. "to believe") is the trust which allows one party to provide resources to another party where that second party does not reimburse the first party immediately (thereby generating a debt), but instead arranges either to repay or return those resources (or other materials of equal value) at a later date.
+The resources provided may be financial (e.g. granting a loan), or they may consist of goods or services (e.g. consumer credit).
+Credit encompasses any form of deferred payment.[1]
+Credit is extended by a creditor, also known as a lender, to a debtor, also known as a borrower.
+Credit does not necessarily require money.
+The credit concept can be applied in barter economies as well, based on the direct exchange of goods and services.[2]
+However, in modern societies, credit is usually denominated by a unit of account.
+Unlike money, credit itself cannot act as a unit of account.
+Movements of financial capital are normally dependent on either credit or equity transfers.
+Credit is in turn dependent on the reputation or creditworthiness of the entity which takes responsibility for the funds.
+Credit is also traded in financial markets.
+The purest form is the credit default swap market, which is essentially a traded market in credit insurance.
+A credit default swap represents the price at which two parties exchange this risk – the protection "seller" takes the risk of default of the credit in return for a payment, commonly denoted in basis points (one basis point is 1/100 of a percent) of the notional amount to be referenced, while the protection "buyer" pays this premium and in the case of default of the underlying (a loan, bond or other receivable), delivers this receivable to the protection seller and receives from the seller the par amount (that is, is made whole).
+A deposit account is a savings account, current account, or other type of bank account, at a banking institution that allows money to be deposited and withdrawn by the account holder.
+These transactions are recorded on the bank's books, and the resulting balance is recorded as a liability for the bank and represents the amount owed by the bank to the customer.
+Some banks may charge a fee for this service, while others may pay the customer interest on the funds deposited.
+In finance, the financial system is the system that allows the transfer of money between savers (and investors) and borrowers.[1]
+A financial system can operate on a global, regional or firm specific level.
+Gurusamy, writing in Financial Services and Systems has described it as comprising "a set of complex and closely interconnected financial institutions, markets, instruments, services, practices, and transactions."[2]
+According to Franklin Allen and Douglas Gale in Comparing Financial Systems:
+These functions are common to the financial systems of most developed economies.
+Yet the form of these financial systems varies widely."[3]
+Financial systems depend on the countries viewpoint on freedom of trade.
+Some countries i.e. the Soviet Union had socialist financial systems because they value centralized organized state funded trading rather than freedom of trade by everyone.
+In mathematics and computer science, graph theory is the study of graphs, which are mathematical structures used to model pairwise relations between objects.
+A "graph" in this context is made up of "vertices" or "nodes" and lines called edges that connect them.
+A graph may be undirected, meaning that there is no distinction between the two vertices associated with each edge, or its edges may be directed from one vertex to another; see graph (mathematics) for more detailed definitions and for other variations in the types of graph that are commonly considered.
+Graphs are one of the prime objects of study in discrete mathematics.
+Refer to the glossary of graph theory for basic definitions in graph theory.
+The history of banking begins with the first prototype banks of merchants of the ancient world, which made grain loans to farmers and traders who carried goods between cities.
+This began around 2000 BC in Assyria and Babylonia.
+Later, in ancient Greece and during the Roman Empire, lenders based in temples made loans and added two important innovations: they accepted deposits and changed money.
+Archaeology from this period in ancient China and India also shows evidence of money lending activity.
+Banking, in the modern sense of the word, can be traced to medieval and early Renaissance Italy, to the rich cities in the north such as Florence, Venice and Genoa.
+The Bardi and Peruzzi families dominated banking in 14th century Florence, establishing branches in many other parts of Europe.[1]
+Perhaps the most famous Italian bank was the Medici bank, established by Giovanni Medici in 1397.[2] The oldest bank still in existence is Monte dei Paschi di Siena, headquartered in Siena, Italy, which has been operating continuously since 1472.[3]
+The development of banking spread from northern Italy throughout the Holy Roman Empire, and in the 15th and 16th century to northern Europe.
+This was followed by a number of important innovations that took place in Amsterdam during the Dutch Republic in the 17th century, and in London in the 18th century.
+During the 20th century, developments in telecommunications and computing caused major changes to banks' operations and let banks dramatically increase in size and geographic spread.
+The financial crisis of 2007–2008 caused many bank failures, including some of the world's largest banks, and provoked much debate about bank regulation.
+In finance, a loan is a debt provided by one entity (organization or individual) to another entity at an interest rate, and evidenced by a note which specifies, among other things, the principal amount, interest rate, and date of repayment.
+A loan entails the reallocation of the subject asset(s) for a period of time, between the lender and the borrower.
+In a loan, the borrower initially receives or borrows an amount of money, called the principal, from the lender, and is obligated to pay back or repay an equal amount of money to the lender at a later time.
+The loan is generally provided at a cost, referred to as interest on the debt, which provides an incentive for the lender to engage in the loan.
+In a legal loan, each of these obligations and restrictions is enforced by contract, which can also place the borrower under additional restrictions known as loan covenants.
+Although this article focuses on monetary loans, in practice any material object might be lent.
+Acting as a provider of loans is one of the principal tasks for financial institutions.
+For other institutions, issuing of debt contracts such as bonds is a typical source of funding.
+Mercedes-Benz (German pronunciation: [mɛʁˈt͡seːdəs ˈbɛnt͡s]) is a German automobile manufacturer, a multinational division of the German manufacturer Daimler AG.
+The brand is used for luxury automobiles, buses, coaches, and trucks.
+The headquarters of Mercedes-Benz is in Stuttgart, Baden-Württemberg, Germany.
+The name first appeared in 1926 under Daimler-Benz but traces its origins to Daimler-Motoren-Gesellschaft's 1901 Mercedes and to Karl Benz's 1886 Benz Patent Motorwagen, which is widely regarded as the first gasoline powered automobile.
+Mercedes-Benz's slogan is "Das Beste oder nichts" (English: "The best or nothing").
+Mercedes-Benz is part of the "German Big 3" luxury automakers, along with Audi and BMW, which are the best selling luxury automakers in the world.[1]
+Network theory, a part of graph theory, is also an area of computer and network science.
+It has application in many disciplines including statistical physics, particle physics, computer science, electrical engineering, biology, economics, operations research, and sociology.
+Network theory concerns itself with the study of graphs as a representation of either symmetric relations or, more generally, of asymmetric relations between discrete objects.
+Applications of network theory include logistical networks, the World Wide Web, Internet, gene regulatory networks, metabolic networks, social networks, epistemological networks, etc; see List of network theory topics for more examples.
+Euler's solution of the Seven Bridges of Königsberg problem is considered to be the first true proof in the theory of networks.[1]
+Proteins (/ˈproʊˌtiːnz/ or /ˈproʊti.ɨnz/) are large biological molecules, or macromolecules, consisting of one or more long chains of amino acid residues.
+Proteins perform a vast array of functions within living organisms, including catalyzing metabolic reactions, replicating DNA, responding to stimuli, and transporting molecules from one location to another.
+Proteins differ from one another primarily in their sequence of amino acids, which is dictated by the nucleotide sequence of their genes, and which usually results in folding of the protein into a specific three-dimensional structure that determines its activity.
+A linear chain of amino acid residues is called a polypeptide.
+A protein contains at least one long polypeptide.
+Short polypeptides, containing less than about 20-30 residues, are rarely considered to be proteins and are commonly called peptides, or sometimes oligopeptides.
+The individual amino acid residues are bonded together by peptide bonds and adjacent amino acid residues.
+The sequence of amino acid residues in a protein is defined by the sequence of a gene, which is encoded in the genetic code.
+In general, the genetic code specifies 20 standard amino acids; however, in certain organisms the genetic code can include selenocysteine and—in certain archaea—pyrrolysine.
+Shortly after or even during synthesis, the residues in a protein are often chemically modified by posttranslational modification, which alters the physical and chemical properties, folding, stability, activity, and ultimately, the function of the proteins.
+Sometimes proteins have non-peptide groups attached, which can be called prosthetic groups or cofactors.
+Proteins can also work together to achieve a particular function, and they often associate to form stable protein complexes.
+Once formed, proteins only exist for a certain period of time and are then degraded and recycled by the cell's machinery through the process of protein turnover.
+A protein's lifespan is measured in terms of its half-life and covers a wide range.
+They can exist for minutes or years with an average lifespan of 1–2 days in mammalian cells.
+Abnormal and or misfolded proteins are degraded more rapidly either due to being targeted for destruction or due to being unstable.
+Public policy is the principled guide to action taken by the administrative executive branches of the state with regard to a class of issues in a manner consistent with law and institutional customs.
+The foundation of public policy is composed of national constitutional laws and regulations.
+Further substrates include both judicial interpretations and regulations which are generally authorized by legislation. Strong public policy should solve problems efficiently and effectively, serve justice, support governmental institutions and policies, and encourage active citizenship.[1]
+Other scholars define it as a system of "courses of action, regulatory measures, laws, and funding priorities concerning a given topic promulgated by a governmental entity or its representatives."[2]
+Public policy is commonly embodied "in constitutions, legislative acts, and judicial decisions."[3]
+In the United States, this concept refers not only to the result of policies, but more broadly to the decision-making and analysis of governmental decisions.
+As an academic discipline, public policy is studied by professors and students at public policy schools of major universities throughout the country.
+The U.S. professional association of public policy practitioners, researchers, scholars, and students is the Association for Public Policy Analysis and Management.
+In physiology and sociology, social behavior is behavior directed towards society, or taking place between members of the same species.
+Behaviors such as predation—which involves members of different species—are not social.
+While many social behaviors are communication (i.e., they provoke a response—or a change in behavior—without acting directly on the receiver), communication between members of different species is not social behavior.
+The umbrella term behavioral sciences is also used to refer to sciences that study behavior.
+In sociology, "behavior" itself means an animal-like activity devoid of social meaning or social context, in contrast to "social behavior", which has both.
+In a sociological hierarchy, social behavior is followed by social actions, which are directed at other people and are designed to induce a response.
+Further along this ascending scale are social interaction and social relation.
+Specific social behaviors include aggression, altruism, scapegoating, and shyness.[1]
+"Monosociality" describes social relations (or preference for such relations) with the same sex of a (putatively) nonsexual nature.
+"Bisociality" describes social relations (or preference for such relations) with both the same and opposite sexes, also of a (putatively) nonsexual nature.
+A social network is a social structure made up of a set of social actors (such as individuals or organizations) and a set of the dyadic ties between these actors.
+The social network perspective provides a set of methods for analyzing the structure of whole social entities as well as a variety of theories explaining the patterns observed in these structures.[1]
+The study of these structures uses social network analysis to identify local and global patterns, locate influential entities, and examine network dynamics.
+Social networks and the analysis of them is an inherently interdisciplinary academic field which emerged from social psychology, sociology, statistics, and graph theory.
+Georg Simmel authored early structural theories in sociology emphasizing the dynamics of triads and "web of group affiliations."[2]
+Jacob Moreno is credited with developing the first sociograms in the 1930s to study interpersonal relationships.
+These approaches were mathematically formalized in the 1950s and theories and methods of social networks became pervasive in the social and behavioral sciences by the 1980s.[1][3]
+Social network analysis is now one of the major paradigms in contemporary sociology, and is also employed in a number of other social and formal sciences.
+Together with other complex networks, it forms part of the nascent field of network science.[4][5]
+Sociology is the academic study of social behaviour, its origins, development, organisation, and institutions.[1]
+It is a social science that uses various methods of empirical investigation[2] and critical analysis[3] to develop a body of knowledge about social order, social disorder and social change.
+A goal for many sociologists is to conduct research that may be applied directly to social policy and welfare, while others focus primarily on refining the theoretical understanding of social processes.
+Subject matter ranges from the micro level of individual agency and interaction to the macro level of systems and the social structure.[4]
+The traditional focuses of sociology include social stratification, social class, social mobility, religion, secularisation, law, sexuality and deviance.
+As all spheres of human activity are affected by the interplay between social structure and individual agency, sociology has gradually expanded its focus to further subjects, such as health, medical, military and penal institutions, the Internet, education, and the role of social activity in the development of scientific knowledge.
+The range of social scientific methods has also expanded.
+Social researchers draw upon a variety of qualitative and quantitative techniques.
+The linguistic and cultural turns of the mid-twentieth century led to increasingly interpretative, hermeneutic, and philosophic approaches to the analysis of society.
+Conversely, recent decades have seen the rise of new analytically, mathematically and computationally rigorous techniques, such as agent-based modelling and social network analysis.[5][6]
+Social research informs politicians and policy makers, educators, planners, lawmakers, administrators, developers, business magnates, managers, social workers, non-governmental organisations, non-profit organisations, and people interested in resolving social issues in general.
+There is often a great deal of crossover between social research, market research, and other statistical fields.[7]
+In computer programming, a subroutine is a sequence of program instructions that perform a specific task, packaged as a unit.
+This unit can then be used in programs wherever that particular task should be performed.
+Subprograms may be defined within programs, or separately in libraries that can be used by multiple programs.
+In different programming languages, a subroutine may be called a procedure, a function, a routine, a method, or a subprogram.
+The generic term callable unit is sometimes used.[1]
+As the name subprogram suggests, a subroutine behaves in much the same way as a computer program that is used as one step in a larger program or another subprogram.
+A subroutine is often coded so that it can be started (called) several times and/or from several places during one execution of the program, including from other subroutines, and then branch back (return) to the next instruction after the call once the subroutine's task is done.
+Maurice Wilkes, David Wheeler, and Stanley Gill are credited with the invention of this concept, which they termed a closed subroutine,[2][3] contrasted with an open subroutine or macro.[4]
+Subroutines are a powerful programming tool,[5] and the syntax of many programming languages includes support for writing and using them.
+Judicious use of subroutines (for example, through the structured programming approach) will often substantially reduce the cost of developing and maintaining a large program, while increasing its quality and reliability.[6]
+Subroutines, often collected into libraries, are an important mechanism for sharing and trading software.
+The discipline of object-oriented programming is based on objects and methods (which are subroutines attached to these objects or object classes).
+In the compiling method called threaded code, the executable program is basically a sequence of subroutine calls.
+A transport network, or transportation network is a realisation of a spatial network, describing a structure which permits either vehicular movement or flow of some commodity.[1]
+Examples are network of roads and streets, railways, pipes, aqueducts, and power lines.
+One can distinguish land, sea and air transportation networks.
+The United Kingdom of Great Britain and Northern Ireland Listeni/ɡreɪt ˈbrɪtən ənd ˈnɔrðərn ˈaɪərlənd/, commonly known as the United Kingdom (UK) or Britain, is a sovereign state in Europe.
+Lying off the north-western coast of the European mainland, the country includes the island of Great Britain (a term also applied loosely to refer to the whole country),[8] the north-eastern part of the island of Ireland, and many smaller islands.
+Northern Ireland is the only part of the UK that shares a land border with another state: the Republic of Ireland.[nb 4] Apart from this land border, the UK is surrounded by the Atlantic Ocean, with the North Sea in the east and the English Channel in the south.
+The Irish Sea lies between Great Britain and Ireland.
+The UK has an area of 243,610 square kilometres (94,060 sq mi), making it the 78th-largest sovereign state in the world and the 11th-largest in Europe.
+The United Kingdom is the 22nd-most populous country, with an estimated 64.1 million inhabitants.[3]
+It is a constitutional monarchy with a parliamentary system of governance.[9][10]
+Its capital city is London, an important global city and financial centre with the second-largest urban area in Europe, and its metropolitan area is the largest in European Union, with a population of about 14 million according Eurostat.[11][12]
+The current monarch—since 6 February 1952—is Queen Elizabeth II.
+The UK consists of four countries: England, Scotland, Wales, and Northern Ireland.[13]
+The latter three have devolved administrations,[14] each with varying powers,[15][16] based in their capitals, Edinburgh, Cardiff, and Belfast, respectively.
+Guernsey, Jersey, and the Isle of Man are not part of the United Kingdom, being Crown dependencies with the British Government responsible for defence and international representation.[17]
+The UK has fourteen Overseas Territories,[18] including the disputed Falkland Islands, Gibraltar, and Indian Ocean Territory.
+This sentence is meaningless, I'm just curious to see if ClearNLP correctly detects emoticons and smileys. ;-) :-P By the way, the former is, but not the latter...
+What happens if I include unneeded spaces          or   tabulations [what if I add things in parenthesis] (and this)?

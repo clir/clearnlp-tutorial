@@ -35,7 +35,7 @@ import edu.emory.clir.clearnlp.util.lang.TLanguage;
 /**
  * @author Jinho D. Choi ({@code jinho.choi@emory.edu})
  */
-public class Issue3
+public class Issue3Test
 {
 	@Test
 	public void test() throws Exception

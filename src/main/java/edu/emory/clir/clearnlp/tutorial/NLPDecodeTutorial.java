@@ -26,9 +26,9 @@ import java.util.concurrent.Executors;
 
 import edu.emory.clir.clearnlp.component.AbstractComponent;
 import edu.emory.clir.clearnlp.component.mode.dep.DEPConfiguration;
+import edu.emory.clir.clearnlp.component.mode.srl.SRLConfiguration;
 import edu.emory.clir.clearnlp.component.utils.GlobalLexica;
 import edu.emory.clir.clearnlp.component.utils.NLPUtils;
-import edu.emory.clir.clearnlp.dependency.DEPNode;
 import edu.emory.clir.clearnlp.dependency.DEPTree;
 import edu.emory.clir.clearnlp.tokenization.AbstractTokenizer;
 import edu.emory.clir.clearnlp.util.IOUtils;
@@ -61,9 +61,10 @@ public class NLPDecodeTutorial
 		AbstractComponent morph = NLPUtils.getMPAnalyzer(language);
 		AbstractComponent pos = NLPUtils.getPOSTagger   (language, "general-en-pos.xz");
 		AbstractComponent dep = NLPUtils.getDEPParser   (language, "general-en-dep.xz", new DEPConfiguration("root"));
+		AbstractComponent srl = NLPUtils.getSRLabeler   (language, "general-en-srl.xz", new SRLConfiguration(4, 3));
 		AbstractComponent ner = NLPUtils.getNERecognizer(language, "general-en-ner.xz");
 		
-		return new AbstractComponent[]{pos, morph, dep, ner};
+		return new AbstractComponent[]{pos, morph, dep, srl, ner};
 	}
 	
 	public AbstractComponent[] getMedicalModels(TLanguage language)
@@ -118,7 +119,7 @@ public class NLPDecodeTutorial
 			for (AbstractComponent component : components)
 				component.process(tree);
 			
-			out.println(tree.toString(DEPNode::toStringNER)+"\n");
+			out.println(tree.toString()+"\n");
 		}
 		
 		in.close();
@@ -134,7 +135,7 @@ public class NLPDecodeTutorial
 		while ((line = reader.readLine()) != null)
 		{
 			tree = toDEPTree(line);			
-			out.println(tree.toString(DEPNode::toStringNER)+"\n");
+			out.println(tree.toString()+"\n");
 		}
 		
 		reader.close();
@@ -182,7 +183,7 @@ public class NLPDecodeTutorial
 		try 
 		{
 			DEPTree tree = nlp.toDEPTree("The ClearNLP project provides software and resources for natural language processing.");
-			System.out.println(tree.toString(DEPNode::toStringNER)+"\n");
+			System.out.println(tree.toString()+"\n");
 			
 			nlp.processRaw (new FileInputStream(sampleRaw) , IOUtils.createBufferedPrintStream(sampleRaw +".cnlp"));
 			nlp.processLine(new FileInputStream(sampleLine), IOUtils.createBufferedPrintStream(sampleLine+".cnlp"));
